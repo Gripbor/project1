@@ -30,7 +30,6 @@ body {
   justify-content: space-around;
   border: 3px solid red;
   padding: 10px;
-
   margin-top: 90px;
 }
 
@@ -41,8 +40,50 @@ body {
   align-items: center;
 }
 
-.firstbox__img {
+.img {
   height: 130px;
   width: 130px;
   background: black;
+}
+
+.section {
+  display: flex;
+  gap: 15%;
+  margin-top: 90px;
+}
+
+.section__unit {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__blackline {
+  height: 40px;
+  width: 55%;
+  background: black;
+}
+
+.section__blackline-large {
+  height: 70px;
+  width: 90%;
+  background: black;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.secondbox {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+  padding: 5%;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+h4 {
+  width: 65%;
 }
