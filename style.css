@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.blackline-long {
+  background: black;
+  width: 40%;
+}
+
+.blackline-short {
+  background: black;
+  width: 20%;
+}
